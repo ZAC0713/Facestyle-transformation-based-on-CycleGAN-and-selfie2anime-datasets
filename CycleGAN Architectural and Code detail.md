@@ -263,7 +263,6 @@ class NLayerDiscriminator(nn.Module):
   
   ![7.png](assets/7.png)
 
-
 ### 3.4.2 生成器损失函数
 
 * 训练生成器的时候， $D_X$ 和 $D_Y$ 的参数被固定，只有 $G$ 和 $F$ 参数可调
